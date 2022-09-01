@@ -14,7 +14,9 @@ authCommand = frame[2]
 Authentication:
 
 Select
+
 ProcessDigitalKeyCommand 1
+
 ProcessDigitalKeyCommand 2
 
 Reader requests: 0x25 long
