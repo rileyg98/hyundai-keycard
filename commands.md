@@ -42,7 +42,7 @@ Response to 63 33 01 ProcessDigitalKeyCommand. Response is [8][53]. [8] is the U
 Response to 63 36 01 ProcessDigitalKeyCommand. Response is 00 in all instances. 
 Also used to respond to 63 34 01 ProcessDigitalKeyCommand. 
 
-34 34 6f:
+34 34 xx:
 Response to 63 33 10 ProcessDigitalKeyCommand. 32 byte response. Could this be a public key? 
 
 **Select Response**
