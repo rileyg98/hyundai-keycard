@@ -24,7 +24,7 @@ Reader requests: 0x25 long
 Open/start:
 
 Framing seems to be:
-[3] [64] [2]
+[3] [32] [2]
 cmd data pad
 
 cmd 1:
