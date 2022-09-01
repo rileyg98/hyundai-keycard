@@ -1,4 +1,4 @@
-Authentication flow:
+**Authentication flow:**
 
 Select - returns a UID and versioning info
 
@@ -7,7 +7,7 @@ ProcessDigitalKeyCommand 633301
 ProcessDigitalKeyCommand 633601
 
 
-Pairing flow:
+**Pairing flow:**
 
 Select - returns current UID, this gets reset during the pairing.
 
@@ -16,7 +16,7 @@ ProcessDigitalKeyCommand 633310
 ProcessDigitalKeyCommand 633401
 
 
-ProcessDigitalKeyCommand subcmd set:
+**ProcessDigitalKeyCommand subcmd set:**
 
 63 33 01:
 Used in authentication. Takes 32 bytes of data and tyo bytes of padding as follows:
@@ -33,7 +33,7 @@ Part 1 of pairing. Takes [32][2] 32 bytes of data and 2 00 of padding.
 Part 2 of pairing. Takes [101][2]. Unknown data? 2x 00 padding.
 
 
-DigitalKeyResponse subcmd set:
+**DigitalKeyResponse subcmd set:**
 
 34 36 41:
 Response to 63 33 01 ProcessDigitalKeyCommand. Response is [8][53]. [8] is the UID found in the card select. 53 is some kind of signature data. Unknown as yet. 
