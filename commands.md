@@ -1,6 +1,6 @@
 **Authentication flow:**
 
-Select - returns a UID and versioning info
+Select - returns a Header and UID
 
 ProcessDigitalKeyCommand 633301
 
@@ -44,3 +44,8 @@ Also used to respond to 63 34 01 ProcessDigitalKeyCommand.
 
 34 34 6f:
 Response to 63 33 10 ProcessDigitalKeyCommand. 32 byte response. Could this be a public key? 
+
+**Select Response**
+
+34 33 41:
+TokenID after this as per the decompiled Hyundai app. [8][2] with 0000 padding in [2].
